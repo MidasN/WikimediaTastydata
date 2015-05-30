@@ -52,7 +52,7 @@ ul p {
 /* Keeps list items together when breaking between columns */
 li {
     page-break-inside: avoid;
-    -webkit-column-break-inside: avoid;  /* Safari and Chrome */
+    -webkit-column-break-inside: avoid;
 }
 
 .header {
@@ -68,7 +68,7 @@ li {
   text-align: center;
 }
 
-/* FIX THIS */
+/* NEEDS TO BE FIXED */
 .menu {
   overflow: hidden;
   /* position: absolute; */
@@ -135,7 +135,6 @@ li {
   z-index: -1;
 }
 
-/* Button */
 .btn:focus,
 .btn:active,
 .btn.active,
