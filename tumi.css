@@ -1,0 +1,45 @@
+body{	
+	background-image: url("http://upload.wikimedia.org/wikipedia/commons/c/c3/Ceviche_en_Parchita_y_Cocuy.JPG");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* body:after {
+	content: "";
+	background-image: url("http://upload.wikimedia.org/wikipedia/commons/c/c3/Ceviche_en_Parchita_y_Cocuy.JPG");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+ 	opacity: 0.5;
+ 	top: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	right: 0;
+ 	position: absolute;
+ 	z-index: -1;    
+} */
+
+.btn-primary {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    border-color: #f6bf01;
+    background-color: #fec503;
+}
+
+mark {
+	background-color: #fed136;
+	color: white;
+}
+
+.menu {
+	background-color: #fed136;
+}

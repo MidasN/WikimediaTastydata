@@ -1,0 +1,31 @@
+body{	
+	background-image: url("http://upload.wikimedia.org/wikipedia/commons/0/0e/Saigon_Street_Corner_Dining_%28at_noon%29.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* Button */
+.btn-primary {
+    border-color: #36cdfe;
+    background-color: #36cdfe;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    border-color: #03c1fe;
+    background-color: #01baf6;
+}
+
+mark {
+	background-color: #36cdfe;
+	color: white;
+}
+
+.menu {
+	background-color: #36cdfe;
+	color: white;	
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Tumi Cosina Peruana</title>
+    <!-- Universal Language Selector CSS -->
+    <link href="lib/jquery.uls/css/jquery.uls.css" rel="stylesheet"/>
+    <link href="lib/jquery.uls/css/jquery.uls.grid.css" rel="stylesheet"/>
+    <link href="lib/jquery.uls/css/jquery.uls.lcd.css" rel="stylesheet"/>
+    <!-- Bootstrap and Main CSS files -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <!-- Menu-specific CSS that overrides Bootstrap and Main -->
+    <link rel="stylesheet" type="text/css" href="tumi.css">
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- Qlabel libraries -->
+    <script src="https://rdfquery.googlecode.com/svn/tags/v1.0/jquery.rdf.js"></script>
+    <script src="https://raw.githubusercontent.com/googleknowledge/qlabel/master/src/jquery.qlabel.js"></script>
+    <!-- Universal Language Selector libraries -->
+    <script src="lib/jquery.uls/src/jquery.uls.data.js"></script>
+    <script src="lib/jquery.uls/src/jquery.uls.data.utils.js"></script>
+    <script src="lib/jquery.uls/src/jquery.uls.lcd.js"></script>
+    <script src="lib/jquery.uls/src/jquery.uls.languagefilter.js"></script>
+    <script src="lib/jquery.uls/src/jquery.uls.regionfilter.js"></script>
+    <script src="lib/jquery.uls/src/jquery.uls.core.js"></script>
+    <script src="menu.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row header">
+        <button type="button" class="btn btn-primary uls-trigger">Select language</button>
+      </div>
+      <div class="row">
+        <p class="restaurant-name"><mark>Tumi Cosina Peruana</mark></p>
+        <ul class="menu flow-text">
+          <li>
+            <p class="dish-category">Carretilla (Peruansk streetfood)</p>
+            <a href="#" title="Papa a la Huancaina" data-toggle="popover" data-trigger="focus" data-placement="auto" data-content="Click anywhere to close popover" data-html="true"> 
+              <p class="dish">Papa a la Huancaina<span class="price">20kr</span></p>
+            </a>
+            <p class="ingredient">Potatis, aji amarillo, färskost</p>
+          </li>
+          <li>
+            <p class="dish">Anticuchos<span class="price">20kr</span></p>
+            <p class="ingredient">grillat spett, gödkalvhjärta, aja panca, huacataysås, ocopa, potatis, jumbomajs</p>
+          </li>
+          <li>
+            <p class="dish">Rachi<span class="price">20kr</span></p>
+            <p class="ingredient">Grillning komage</p>
+          </li>
+          <li>
+            <p class="dish">Arroz con mariscos<span class="price">20kr</span></p>
+            <p class="ingredient">ris, skaldjur, jumbomajs, aji panca, salsa criolla, aji amarillo</p>
+          </li>
+          <li>
+            <p class="dish-category">Sanguches (Burgare)</p>
+            <p class="dish">Pollo al achiote<span class="price">20kr</span></p>
+            <p class="ingredient">kycklinglårfilé, pisco, huacatay, huancainasås, rocoto, avokado</p>
+          </li>
+          <li>
+           <p class="dish">Cerdo chifero<span class="price">20kr</span></p>
+           <p class="ingredient">fläskkarré, sesamfrö, ingefära, sötpotatis, salsa pollera</p>
+          </li>
+          <li>
+           <p class="dish-category">Ceviche (Peruansk Råkultur)</p>
+           <p class="dish">Clasicó<span class="price">20kr</span></p>
+           <p class="ingredient">sejrygg, koriander, aja limó</p>
+          </li>
+          <li>
+           <p class="dish">Nikei<span class="price">20kr</span></p>
+           <p class="ingredient">tonfisk, passionsfrukt, sesam, dashi, yuzu, noori</p>
+          </li>
+      <!--<li>
+           <p class="dish">Mixto en tres ajies<span class="price">20kr</span></p> 
+           <p class="ingredient">sejrygg, pulpo, skaldjur, aji limó, aji amarillo, rocoto</p>
+          </li>
+          <li>
+           <p class="dish">Salmon chifero<span class="price">20kr</span></p> 
+           <p class="ingredient">lax, wonton, mirin, soya, aji amarillo</p>
+          </li>
+          <li>
+           <p class="dish-category">Postres (Något sött)</p>
+           <p class="dish">Suspiro limena<span class="price">20kr</span></p>
+           <p class="ingredient">Dulce de leche, maräng, pisco, kanel</p>
+          </li>
+          <li>
+           <p class="dish">Pastel de manjar<span class="price">20kr</span></p>
+           <p class="ingredient">tusenbladsdessert, manjar, lucuma</p>
+          </li>-->
+        </ul>
+      </div>
+      <div class="row footer">
+        Adapted by <a href="http://wikimedia.se">Wikimedia Sverige</a> based on work by <a href="http://denny.vrandecic.de">Denny Vrandecic</a>. Funded by <a href="http://vinnova.se">Vinnova</a>.
+        <br>
+        Image: <a href="https://commons.wikimedia.org/wiki/File:Grisbl%C3%A4nkan_August_2013.jpg">Grisblänkan August 2013</a> by <a href="https://commons.wikimedia.org/wiki/User:ArildV">Arild Vågen</a>, license: <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.sv" rel="license">CC BY-SA 3.0</a></p>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="popover"]').popover(); 
+      });
+    </script>
+  </body>
+</html>
